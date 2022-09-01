@@ -98,7 +98,7 @@ main .trabajos section article div {
 main .trabajos section article li {
   font-size: 2em;
   margin-top: 1em;
-  list-style: square;
+  list-style: none;
   text-align: center;
 }
 main .trabajos section article img {
@@ -145,7 +145,7 @@ main .trabajo2 article li {
   font-size: 2em;
   margin-top: 1em;
   margin-bottom: 1em;
-  list-style: square;
+  list-style: none;
   text-align: center;
 }
 main .trabajo2 article img {
@@ -186,7 +186,7 @@ main .trabajo2 article img {
   font-size: 2em;
   margin-top: 1em;
   margin-bottom: 1em;
-  list-style: square;
+  list-style: none;
   text-align: center;
 }
 .trabajo3 article img {
