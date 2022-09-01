@@ -5,6 +5,7 @@ header {
     background-position: center;
     background-attachment: fixed;
     font-family: $font;
+
     nav {
         padding-top: 45em;
 
@@ -13,10 +14,11 @@ header {
             flex-direction: row;
             justify-content: space-around;
             cursor: pointer;
+
             a {
                 text-decoration: none;
             }
-        
+
             li {
                 text-decoration: none;
                 list-style: none;
