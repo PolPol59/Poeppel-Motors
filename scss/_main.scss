@@ -1,0 +1,141 @@
+main {
+    background-color: #130419;
+    color: white;
+    font-family: $font;
+
+    h1 {
+        font-size: 3em;
+        text-align: center;
+        padding-top: 1em;
+    }
+
+
+    p {
+        font-size: 1.5em;
+        text-align: center;
+    }
+
+    h2 {
+        margin-top: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .equipo {
+        text-decoration: underline;
+    }
+
+    .trabajos {
+        section {
+            h2 {
+                font-size: 2.5em;
+                text-decoration: underline;
+            }
+
+            h3 {
+                font-size: 2em;
+                text-align: center;
+                margin-top: 1em;
+                margin-bottom: 1em;
+            }
+
+            article {
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+
+                div {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                }
+
+                li {
+                    font-size: 2em;
+                    margin-top: 1em;
+                    list-style: square;
+                    text-align: center;
+                }
+
+                img {
+                    width: 30em;
+                    display: flex;
+                    flex-direction: row;
+                    align-self: center;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+            }
+        }
+    }
+
+    .trabajo2 {
+        article {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+            }
+
+            li {
+                font-size: 2em;
+                margin-top: 1em;
+                margin-bottom: 1em;
+                list-style: square;
+                text-align: center;
+            }
+
+            img {
+                width: 30em;
+                display: flex;
+                align-self: center;
+                justify-content: space-around;
+
+            }
+        }
+    }
+}
+
+
+.trabajo3 {
+    article {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+
+        li {
+            font-size: 2em;
+            margin-top: 1em;
+            margin-bottom: 1em;
+            list-style: square;
+            text-align: center;
+        }
+
+        img {
+            width: 30em;
+            display: flex;
+            align-self: center;
+            justify-content: space-around;
+
+        }
+    }
+}
+
+footer {
+    font-size: 2em;
+    text-align: center;
+    background-color: #571373;
+    color: white;
+}

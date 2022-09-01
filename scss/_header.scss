@@ -1,0 +1,29 @@
+header {
+    background-image: url(../assets/img/logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: $font;
+    nav {
+        padding-top: 45em;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            cursor: pointer;
+            a {
+                text-decoration: none;
+            }
+        
+            li {
+                text-decoration: none;
+                list-style: none;
+                font-size: 2em;
+                color: white;
+
+            }
+        }
+    }
+}
